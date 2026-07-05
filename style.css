@@ -1,9 +1,18 @@
 *{
     color: rgb(190, 113, 126);
 }
-h1{
+#head1{
     color: green;
 }
+#head2{
+    color: blue;
+}
+#head3{
+    color: red;
+}
+#head4{
+    color: purple;
+}
 button{
-    color= rgb(190, 113, 126);
+    color: rgb(190, 113, 126);
 }
