@@ -1,9 +1,3 @@
-#box {
-    background-color: #ff0000;
-}
-.heading {
-    color: #0000ff;
-}
-button {
-    background-color: green;
+p,h1 {
+    text-align: center;
 }
