@@ -1,18 +1,9 @@
-*{
-    color: rgb(190, 113, 126);
+#box {
+    background-color: #ff0000;
 }
-#head1{
-    color: green;
+.heading {
+    color: #0000ff;
 }
-#head2{
-    color: blue;
-}
-#head3{
-    color: red;
-}
-button{
-    color: rgb(190, 113, 126);
-}
-.class1{
-    color: rgb(190, 113, 126);
+button {
+    background-color: green;
 }
