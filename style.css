@@ -1,21 +1,9 @@
-p {
-    text-align: center;
-}
-h1 {
-    text-align: center;
-    text-decoration: blue wavy underline;
-    /* mdn website for more information */
-
-}
-a {
-    text-decoration: none;
-}
-#h1 {
-    font-weight: bolder;
-}
 #one {
-    font-family: arial;
+    font-size: 20px;
 }
 #two {
-    font-family: verdana, sans-serif, cursive, monospace;
+    font-size: 15px;
+}
+#three {
+    font-size: 10px;
 }
