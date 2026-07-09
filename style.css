@@ -8,4 +8,16 @@ div {
 
 #box1 {
     background-image: url("confused-huh.gif");
+    background-size: cover;
+}
+
+#box2 {
+    background-image: url("confused-huh.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#box3 {
+    background-image: url("confused-huh.gif");
+    background-size: auto;
 }
