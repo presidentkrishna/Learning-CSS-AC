@@ -7,23 +7,5 @@ div {
 }
 
 #box1 {
-    position: static;
-}
-
-#box2 {
-    position: relative;
-    top: 10px;
-    left: 10px;
-    z-index: 2;
-}
-
-#box3 {
-    position: sticky;
-    top: 10px;
-
-}
-
-#box4 {
-    position: fixed;
-    top: 0px;
+    background-image: url("confused-huh.gif");
 }
