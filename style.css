@@ -11,13 +11,11 @@ div {
 
 #container {
     width: 600px;
-    height: 600px;
+    height: 300px;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
-    align-content: flex-start;
+    align-items: flex-start;
 }
 
 #box1 {
@@ -27,11 +25,12 @@ div {
 #box2 {
     background-color: pink;
     height: 200px;
+    flex-shrink: 0;
 }
 
 #box3 {
     background-color: rgb(9, 255, 0);
-    height: 75px;
+    flex-grow: 6;
 }
 
 #box4 {
@@ -40,4 +39,5 @@ div {
 
 #box5 {
     background-color: rgb(0, 140, 255);
+
 }
