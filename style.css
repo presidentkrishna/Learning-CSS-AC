@@ -4,16 +4,20 @@ body {
 
 div {
     height: 100px;
-    width: 100px;
+    width: 150px;
     display: inline-block;
     border: 2px solid black;
 }
 
 #container {
-    width: 800px;
-    height: 300px;
+    width: 600px;
+    height: 600px;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: flex-start;
 }
 
 #box1 {
@@ -22,10 +26,12 @@ div {
 
 #box2 {
     background-color: pink;
+    height: 200px;
 }
 
 #box3 {
     background-color: rgb(9, 255, 0);
+    height: 75px;
 }
 
 #box4 {
