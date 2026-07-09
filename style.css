@@ -1,12 +1,6 @@
 div {
-    height: 150px;
-    width: 150px;
-    border: 2px solid black;
-    border-radius: 10%;
-    background-color: rgb(165, 92, 92);
-    text-align: center;
-    padding: 20px;
-    margin: 10px;
-    margin-left: 20px;
-    margin: 1px 20px 1px 20px;
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50%;
 }
