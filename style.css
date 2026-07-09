@@ -1,23 +1,9 @@
 div {
     height: 100px;
     width: 100px;
-    background-color: cyan;
-    border: 2px solid black;
-    display: inline-block;
-}
-
-#box1 {
-    background-image: url("confused-huh.gif");
+    background-image: url(confused-huh.gif);
     background-size: cover;
-}
-
-#box2 {
-    background-image: url("confused-huh.gif");
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-#box3 {
-    background-image: url("confused-huh.gif");
-    background-size: auto;
+    position: fixed;
+    right: 0px;
+    top: 100px
 }
