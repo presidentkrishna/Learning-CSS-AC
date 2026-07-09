@@ -1,5 +1,9 @@
 div {
-    height: 100px;
-    width: 100px;
-    background-color: red;
+    height: 500px;
+    width: 500px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: brown;
+    background-color: rgb(165, 92, 92);
+    text-align: center;
 }
