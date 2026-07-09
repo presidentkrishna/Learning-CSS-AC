@@ -1,27 +1,17 @@
-div {
-    height: 100px;
-    width: 100px;
-    background-color: aquamarine;
-    border: 2px solid black;
-    position: absolute;
-    top: 100px;
-    left: 100px;
-    animation: color 2s ease-in 0s infinite normal;
+.loader {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 50px solid grey;
+    border-top: 50px solid black;
+    animation: spin 2s ease-in-out 0s infinite normal;
 }
 
-@keyframes color {
-    0% { 
-        left: 0px;
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
     }
-    50% { 
-        left: 500px;
+    to {
+        transform: rotate(360deg);
     }
-    100% { 
-        left: 200px;
-    }
-}
-
-div:hover {
-    
-
 }
